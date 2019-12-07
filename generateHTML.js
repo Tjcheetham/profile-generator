@@ -31,22 +31,27 @@ var prompt = inquirer.createPromptModule();
 var question = [
     {
         type: "input",
+        name: "username",
+        message: "What is your GitHub username?"
+    },
+    {
+        type: "input",
         name: "color",
         message: "What's your favorite color?",
     },
     
 ]
 
-async function init(){
-    try{
-        const answers = await prompt(question);
-        const html = GenerateHTML(answers);
-        await writeFileAysnc("index.html", html);
-    } catch(err){
-        console.log(err);
-    }
-}
-init();
+// async function init(){
+//     try{
+//         const answers = await prompt(question);
+//         const html = GenerateHTML(answers);
+//         await writeFileAysnc("index.html", html);
+//     } catch(err){
+//         console.log(err);
+//     }
+// }
+// init();
 
 prompt(question)
     .then(answers => {
@@ -56,6 +61,7 @@ prompt(question)
         {
             if(err) throw(err);
         });
+        console.log(answers);
     });
 
 function GenerateHTML(data) {
