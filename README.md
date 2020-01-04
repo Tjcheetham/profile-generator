@@ -9,9 +9,11 @@ Node - JavaScript - [JQuery](https://code.jquery.com/jquery-3.3.1.slim.min.js) -
 
 ### Screenshots
 
-![Screenshot1](assets/images/2019-10-24(1).png)
+![Screenshot1](assets/images/2020-01-03(1).png)
 
-![Screenshot2](assets/images/2019-10-24(2).png)
+![Screenshot2](assets/images/2020-01-03(2).png)
+
+![Screenshot3](assets/images/2020-01-03(3).png)
 
 ### Link
 Check it out!
