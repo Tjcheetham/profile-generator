@@ -17,4 +17,4 @@ Node - JavaScript - [JQuery](https://code.jquery.com/jquery-3.3.1.slim.min.js) -
 
 ### Link
 Check it out!
-https://tjcheetham.github.io/profile-generator/.
+https://github.com/Tjcheetham/profile-generator
